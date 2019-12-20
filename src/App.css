@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+
+:root {
+--shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+--shadow-big: 0 2px 4px 0 rgba(0,0,0,0.6);
+--razzmic-berry: rgba(138, 79, 125, 1);
+--razzmic-berry-trans: rgba(138, 79, 125, 0.315);
+--rocket-metallic: rgba(136, 120, 128, 1);
+--spanish-grey: rgba(136, 160, 150, 1);
+--spanish-grey-dark: rgb(90, 109, 101);
+--spanish-grey-trans: rgba(136, 160, 150, 0.363);
+--sage: rgba(187, 171, 139, 1);
+--light-coral: rgba(239, 130, 117, 1);
+--light-coral-trans: rgba(239, 129, 117, 0.301);
+--orange: #C66647;
+--orange-trans: rgba(198, 103, 71, 0.37);
+--green: #579A96;
+--green-trans: rgba(87, 154, 150, 0.356);
+--green-trans2: rgba(87, 154, 150, 0.096);
+--dark-grey: #323031;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 0px;
+}
+
+
+
+
