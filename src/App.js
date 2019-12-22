@@ -5,6 +5,7 @@ import './components/hero/Hero.css';
 
 import Hero from './components/hero/Hero';
 import Socials from './components/socials/Socials';
+import Footer from './components/footer/Footer';
 
 function Homepage() {
   return(
@@ -40,6 +41,7 @@ function App() {
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
       </Switch>
+      <Footer/>
     </BrowserRouter>
     </div>
   );

@@ -1,0 +1,39 @@
+.footer {
+  height: 70px;
+  background-color: var(--dark-grey);
+}
+
+.footer-link {
+  color: white;
+  font-size: 15px;
+  padding: 0 7px
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.footer-tagline {
+  color: white;
+  float: right;
+  height: 70px;
+  align-items: center;
+}
+
+.footer-tagline > p {
+  margin-top: 20px;
+} 
+
+.heart-logo {
+  color: var(--light-coral);
+  font-size: 15px;
+}
+.heart-logo:hover {
+  transform: scale(1.5);
+}
+
