@@ -20,7 +20,7 @@ export default class Footer extends Component {
           </div>
         </div>
         <div className="footer-tagline">
-          <p>Made with <Heart/> &copy; Martyna Krawczyk 2019</p>
+          <p>Made with <Heart className='heart-logo'/> &copy; Martyna Krawczyk 2019</p>
         </div>
       </footer>
       </div>
