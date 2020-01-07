@@ -17,7 +17,7 @@ export default class About extends Component {
       a scholarship to Coder Academy's Fast Track Diploma of IT. The course will leave me with everything I need to
       become a full stack developer, including Ruby, CSS, HTML, Ruby on Rails and JavaScript MERN stack (MongoDB,
       Express, React, Node.js). </p>
-    <a href="./media/Resume.pdf" download className="resume-button">Download Resume</a>
+    <a href="./assets/Resume.pdf" download className="resume-button">Download Resume</a>
   </div>
   <div className="timeline">
     <ul>

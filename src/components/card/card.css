@@ -1,0 +1,107 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.card2 {
+  width: 20%;
+  /* width: 249px; */
+  text-align: center;
+}
+
+.card-content2 {
+  height:300px;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--green-trans2);
+  -webkit-box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
+  box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
+}
+
+.icon1 {
+  /* height: 70%; */
+  width: 100%;
+  font-size: 120px;
+  display: flex;
+}
+
+.icon2 {
+  /* height: 70%; */
+  width: 100%;
+  font-size: 120px;
+  display: flex;
+}
+
+.icon3 {
+  /* height: 70%; */
+  width: 100%;
+  font-size: 120px;
+  display: flex;
+}
+
+.icon4 {
+  /* height: 70%; */
+  width: 100%;
+  font-size: 120px;
+  display: flex;
+}
+
+.icon5 {
+  /* height: 70%; */
+  width: 100%;
+  font-size: 120px;
+  display: flex;
+}
+
+.card-content2 h4 {
+  margin: 1px 0px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: var(--light-coral);
+}
+
+.card-content2 h1 {
+  margin: 150px 0px;
+}
+
+.green-button {
+  width: 100px;
+  border-radius: 7%;
+  background: var(--spanish-grey);
+  padding:10px 0px;
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+
+.green-button:hover {
+  background: var(--light-coral);
+  -webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+/* tablet design */
+@media only screen and (max-width: 1000px) {
+  .card2 {
+    width: 50%;
+  }
+  }
+/* mobile design */
+  @media only screen and (max-width: 500px) {
+    .card2 {
+      width: 80%;
+      padding-bottom: 10px;
+    }
+    }
