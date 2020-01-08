@@ -30,11 +30,12 @@
   box-shadow: 2px 2px 23px 0px rgba(0,0,0,0.18);
 }
 
-.icon1 {
+.avatar {
   /* height: 70%; */
-  width: 100%;
+  width: 20%;
   font-size: 120px;
   display: flex;
+  padding-top: 10px;
 }
 
 .icon2 {
@@ -65,7 +66,13 @@
   display: flex;
 }
 
-.card-content2 h4 {
+#description {
+  margin: 1px 0px;
+  color: var(--spanish-grey-dark);
+  font-size: 12px;
+}
+
+.card-content2 h3 {
   margin: 1px 0px;
   font-family: 'Gloria Hallelujah', cursive;
   color: var(--light-coral);
@@ -81,8 +88,9 @@
   background: var(--spanish-grey);
   padding:10px 0px;
   text-align: center;
-  margin: 10px;
+  margin-top: auto;
   color: white;
+  
 }
 
 .green-button:hover {
