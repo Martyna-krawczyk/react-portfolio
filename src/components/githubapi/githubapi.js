@@ -11,21 +11,22 @@ export default class Githubapi extends React.Component {
     repos: []
   }
 
-  renderNames () {
-    return this.state.repos.map((repo, key) => <h3 key={repo.id}>{repo.name}</h3>);
+  renderCard () {
+    return this.state.repos.map((repo, key) => 
+    <div className="container2">
+        <div className="card2">
+          <div className="card-content2">
+            <h4 key={repo.id}>{repo.name}</h4>
+            <ul>
+            <li key={repo.id}>{repo.language}</li>
+            </ul>
+            <Link key={repo.id} to={repo.url} target="_blank" className="green-button">More</Link>
+          </div>
+        </div>
+      </div>
+    );
   }
 
-  renderLanguage () {
-    return this.state.repos.map((repo, key) => <li key={repo.id}>{repo.language}</li>);
-  }
-
-  renderUpdated () {
-    return this.state.repos.map((repo, key) => <p key={repo.id}>Updated: {repo.updated_at} </p>);
-  }
-
-  renderUrl () {
-    return this.state.repos.map((repo, key) => <p key={repo.id}>url: {repo.url} </p>);
-  }
 
   componentDidMount() {
       axios.get(`https://api.github.com/users/Martyna-krawczyk/repos`)
@@ -39,10 +40,7 @@ export default class Githubapi extends React.Component {
 
   render() {
     return(
-      <div> 
-        <p>GitHub Repositories:{this.renderNames()}, {this.renderLanguage()}, {this.renderUpdated()}, {this.renderUrl()}</p>
-      </div>
+    <div>{this.renderCard()}</div>
     )
   }
-  
 }

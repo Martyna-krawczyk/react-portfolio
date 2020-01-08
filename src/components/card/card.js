@@ -12,7 +12,7 @@ export default class Card extends React.Component {
         <div className="container2">
           <div className="card2">
             <div className="card-content2">
-              <h4>{this.props.name}</h4>
+              {/* <h4>{this.props.name}</h4> */}
               <ul>
                 <li>{this.props.language}</li>
               </ul>
